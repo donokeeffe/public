@@ -344,6 +344,48 @@ Special characters are used to format/position string output.
    `v  Vertical tab (use with printer output)
 #>
 
+<# comparison operators -eq, -lt, -gt, -contains, -like, -match
+
+-eq             Equal
+ -ne             Not equal
+ -ge             Greater than or equal
+ -gt             Greater than
+ -lt             Less than
+ -le             Less than or equal
+ -like           Wildcard comparison
+ -notlike        Wildcard comparison
+ -match          Regular expression comparison
+ -notmatch       Regular expression comparison
+ -replace        Replace operator
+ -contains       Containment operator
+ -notcontains    Containment operator
+ -in             Like –contains, but with the operands reversed.(PowerShell 3.0)
+ -notin          Like –notcontains, but with the operands reversed.(PowerShell 3.0)
+#>
+
+"Operator".length -gt 7
+$w = "December","January","February"
+$w -contains "February"
+"Peter" -gt "Paul"
+"PowerShell" -match "ower"
+"PowerShell" -like "Pow*"
+if($a = "Peter"){…}
+
+# Filters - A PowerShell Filter will accept the following operators      
+$demo = $null      
+ if (-Not ($demo)) { write "Zero, null or Empty"}      
+ if (!($demo)) { write "Zero, null or Empty"}
+$myVar -is "String"      
+ $myVar -eq 123      
+ $myVar -ceq $myVar2      
+ "abcdef" -like "abc*"      
+ "abcdef" -replace "dEf","xyz"      
+ $myVar1 -is "String" -and $myVar2 -is "Int"      
+ "{2:N}" -f 24.4567      
+(1 -eq 1) -and -not (2 -gt 2)
+$mycmd = ps | select id,ProcessName      
+ foreach ($proc in $mycmd) {"{0,-8}{1,-20}" -f $proc.id, $proc.ProcessName}
+
 #Concatenate
 $Name='John'
 $EMail="$name Doe"
