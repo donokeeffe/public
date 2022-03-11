@@ -1,0 +1,38 @@
+Name                           DomainName                     DomainType                   Default
+----                           ----------                     ----------                   -------
+cbsnet.local                   cbsnet.local                   Authoritative                True
+cbstest.co.uk                  cbstest.co.uk                  Authoritative                False
+cbsnet.co.uk                   cbsnet.co.uk                   Authoritative                False
+datasafe.me                    datasafe.me                    Authoritative                False
+2HareCourt.com                 2HareCourt.com                 Authoritative                False
+ArdenHouseOnline.com           ArdenHouseOnline.com           Authoritative                False
+BarSquared.local               BarSquared.local               Authoritative                False
+TrinityChambers.com            trinitychambers.com            Authoritative                False
+trinitychambers.law.co.uk      trinitychambers.law.co.uk      Authoritative                False
+ForumChambers.com              ForumChambers.com              Authoritative                False
+abbasmedialaw.com              AbbasMediaLaw.com              Authoritative                False
+abbasmedialaw.co.uk            AbbasMediaLaw.co.uk            Authoritative                False
+nigelabbas.com                 nigelabbas.com                 Authoritative                False
+askari-uk.com                  askari-uk.com                  Authoritative                False
+PinnacleCCS.co.uk              pinnacleccs.co.uk              Authoritative                False
+StoneChambers.com              StoneChambers.com              Authoritative                False
+StoneChambers.co.uk            StoneChambers.co.uk            Authoritative                False
+dojlegal.co.uk                 dojlegal.co.uk                 Authoritative                False
+ArbDB                          arbdb.com                      Authoritative                False
+CeruleanChambers.co.uk         CeruleanChambers.co.uk         Authoritative                False
+CharterhouseChambers.co.uk     CharterhouseChambers.co.uk     Authoritative                False
+MichaelCover.com               MichaelCover.com               Authoritative                False
+CBSit.uk (test)                cbsit.uk                       Authoritative                False
+EnterpriseChambers.com         EnterpriseChambers.com         Authoritative                False
+EnterpriseChambers.co.uk       EnterpriseChambers.co.uk       Authoritative                False
+GuardingUK.co.uk               guardinguk.co.uk               Authoritative                False
+GUKAviation.co.uk              gukaviation.co.uk              Authoritative                False
+ReceptionUK.co.uk              receptionuk.co.uk              Authoritative                False
+ArdenQC.com                    ArdenQC.com                    Authoritative                False
+Ceruleanlaw.co.uk              Ceruleanlaw.co.uk              Authoritative                False
+GUK.co.uk                      GUK.co.uk                      Authoritative                False
+resolveguarantee.com           resolveguarantee.com           Authoritative                False
+
+
+[PS] C:\Windows\system32>
+
