@@ -47,5 +47,6 @@ Locate the two SNMP Service (UDP In) rules.
 If one or both of the rules is not enabled, right-click on the rule and then select Enable Rule:
 #>
 
+PowerShell.exe -NoLogo -NonInteractive -InputFormat text -OutputFormat text -Command "& {$Password = ConvertTo-SecureString '******' -AsPlainText -Force;$Credential = New-Object System.Management.Automation.PsCredential 'Backup', $Password;Get-WmiObject -NameSpace "ROOT\CIMV2" -Class Win32_PerfRawData_PerfOS_System -ComputerName "10.238.4.30" -Credential $Credential | Format-List }"
 
 
