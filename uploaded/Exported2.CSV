@@ -1,2 +1,2 @@
 "VMName","VMHost","PrettyPath","VMCPU","VMMEM_GB","DiskName","ActualGB","AllocatedGB","Replication","TimeStamp"
-"WAC-DC02","PSE1-HVH-105","PSE1-HVH-105\VOLUME1","2","4","WAC-DC02","120","45.72","Not Configured","Wed 18 Feb 22:31:09"
+"WAC-DC02","PSE1-HVH-105","PSE1-HVH-105\VOLUME1","2","4","WAC-DC02","120","45.72","Not Configured","Wed 18 Feb 22:31:44"
