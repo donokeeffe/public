@@ -1,4 +1,4 @@
-"Name","IP","Status","TimeStamp"
-"Server01","10.1.1.10","Online","2026-02-18_18-56"
-"Server02","10.1.1.11","Offline","2026-02-18_18-56"
-"Server03","10.1.1.12","Online","2026-02-18_18-56"
+"Name","IP","Status","MemoryUsed","TimeStamp"
+"Server01","10.1.1.10","Online","90","2026-02-18_18-58"
+"Server02","10.1.1.11","Offline","10","2026-02-18_18-58"
+"Server03","10.1.1.12","Online","45","2026-02-18_18-58"
